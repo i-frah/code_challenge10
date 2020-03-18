@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    Margin: 0%;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+   
+  }
+
+
+  .header {
+    border-bottom: rgba(49, 49, 49, 0.363) 1px solid;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+    overflow: visible;
+    background-color: #ffffffb2;
+  }
+  
+  .header ul {
+    margin-top: 12px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    list-style-type: none;
+  }
+  
+  
+  li {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  a {
+    color: #131313;
+    text-decoration: none;
+  }
+  
+  .header .logo a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
